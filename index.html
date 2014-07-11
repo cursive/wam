@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Duino</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- <meta name="mobile-web-app-capable" content="yes"> -->
+</head>
+<body>
+	<div class="bars">
+		<div class="display display0">
+			<div class="label">Waiting..</div>
+			<div class="bar"></div>
+		</div>
+		<div class="display display3">
+			<div class="label">Waiting..</div>
+			<div class="bar"></div>
+		</div>
+		<div class="display display5">
+			<div class="label">Waiting..</div>
+			<div class="bar"></div>
+		</div>
+	</div>
+	<div class="chat">
+	<form action="">
+		<input id="m" autocomplete="off" /><button>Send It</button>
+	</form>
+		<ul id="messages">
+		Messages
+	</ul>
+	</div>
+	<button class="blink">Blink</button>
+	<div class="circle"></div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/Breakout.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

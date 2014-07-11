@@ -1,0 +1,49 @@
+    body {
+      background: grey;
+    }
+    *{
+      font-family: sans-serif;
+    }
+    .bars{
+      width: 200px;
+      float: left;
+    }
+    .display{
+      width: 200px;
+      height: 50px;
+      background-color: #ffff00;
+      top: 0;
+    }
+    .bar{
+      
+      top: 30px;
+      /*margin-top: 50px;*/
+      background-color: red;
+      width: 100px;
+      height: 20px;
+    }
+
+    .circle{
+      width: 90px;
+      height: 90px;
+      background-color:red;
+      position: absolute;
+      left: 0;
+      top: 400px;
+      border-radius: 50%;
+
+    }
+
+    .chat{
+      float: left;
+    }
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+    li{
+      list-style: none;
+    margin: 0;
+    padding: 0;
+    }
